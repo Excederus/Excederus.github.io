@@ -1,0 +1,12 @@
+#main-header {
+	width: 100%;
+	height: 50px;
+	background: rgb(35, 39, 42);
+}
+#header-entry {
+	width: 20%;
+	align-self: center;
+}
+#header-entry:hover {
+	background: rgb(153, 170, 181);
+}
