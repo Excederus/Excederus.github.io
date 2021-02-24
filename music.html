@@ -17,33 +17,35 @@
 
 	<body>
 		<header id="navbar">
-			<a class="nav-entry active" href="index.html">
+			<a class="nav-entry non-active" href="index.html">
 				Main
 			</a>
 			<a class="nav-entry non-active" href="dragondance.html">
 				Dragon Dance
 			</a>
-			<a class="nav-entry non-active" href="music.html">
+      <a class="nav-entry active" href="music.html">
 				Music
 			</a>
 		</header>
 
-		<img id="banner" src="images/main-banner.png" />
+		<img id="banner" src="images/music-banner.png" />
 
 		<main id="main-section">
 			<div class="thin">
-				<h1 style="text-align:center;">
-					Heh
-				</h1>
-				<h5 style="text-align:center;">
-					Here listen to some nice Lofi
-				</h5>
-				<div style="text-align:center;">
-					<iframe width="854" height="480" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-				<div class="spacer">
-					
-				</div>
+				<table id="soundcloud-table">
+					<tbody>
+						<tr>
+							<td class="soundcloud-cell">
+								Hey I'm also a music producer.
+								<br />
+								Check out the awesome link in the bottom right or the EP on the right to hear some banging tracks.
+							</td>
+							<td class="soundcloud-cell">
+								<iframe id="soundcloud-embed" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/978673573&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+							</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</main>
 

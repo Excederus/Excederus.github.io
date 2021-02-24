@@ -1,0 +1,22 @@
+#footer {
+  background: rgb(35, 39, 42);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+.foot-entry {
+  color: rgb(255, 255, 255);
+  float: left;
+  display: inline-block;
+  text-align: center;
+  vertical-align: center;
+  width: 100%;
+  padding: 10px 0;
+}
+.foot-entry:hover {
+  animation: foot-hover 1s;
+  background: rgb(44, 47, 51);
+}

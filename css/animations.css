@@ -1,0 +1,16 @@
+@keyframes navbar-hover {
+  from {
+    background: rgb(44, 47, 51);
+  }
+  to {
+    background: rgb(153, 170, 181);
+  }
+}
+@keyframes foot-hover {
+  from {
+    background: rgb(35, 39, 42);
+  }
+  to {
+    background: rgb(44, 47, 51);
+  }
+}

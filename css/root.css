@@ -1,0 +1,12 @@
+body {
+  background: rgb(35, 39, 42);
+  color: rgb(255, 255, 255);
+  font-variant: small-caps;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  border: 1px solid rgb(158, 179, 0);
+}
