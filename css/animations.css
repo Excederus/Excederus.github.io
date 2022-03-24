@@ -6,6 +6,14 @@
     background: rgb(153, 170, 181);
   }
 }
+@keyframes navbar {
+  from {
+    background: rgb(153, 170, 181);
+  }
+  to {
+    background: rgb(44, 47, 51);
+  }
+}
 @keyframes foot-hover {
   from {
     background: rgb(35, 39, 42);
