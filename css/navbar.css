@@ -17,6 +17,10 @@
   width: 100%;
   padding: 20px 0;
 }
+.non-active {
+  animation: navbar 1s;
+  background: rgb(44, 47, 51);
+}
 .non-active:hover {
   animation: navbar-hover 1s;
   background: rgb(153, 170, 181);
