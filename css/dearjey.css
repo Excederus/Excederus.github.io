@@ -1,0 +1,14 @@
+.main {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.post {
+	padding-top: 25px;
+	padding-bottom: 10px;
+	padding-left: 15%;
+	padding-right: 15%;
+
+	background-color: rgb(153, 170, 181);
+}
