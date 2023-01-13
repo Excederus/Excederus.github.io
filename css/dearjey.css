@@ -1,3 +1,10 @@
+body {
+  background: rgb(35, 39, 42);
+  color: rgb(255, 255, 255);
+  font-family: arial;
+  margin: 0;
+}
+
 .main {
 	position: absolute;
 	width: 100%;
@@ -7,8 +14,8 @@
 .post {
 	margin-top: 25px;
 	margin-bottom: 10px;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
 
 	padding: 25px;
 
