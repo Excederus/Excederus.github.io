@@ -41,13 +41,13 @@ audio {
 }
 
 .image1 {
-	background: url("images/jey1.jpg");
+	background: url("../images/jey1.jpg");
 }
 .image2 {
-	background: url("images/jey2.jpg");
+	background: url("../images/jey2.jpg");
 }
 .image3 {
-	background: url("images/jey3.jpg");
+	background: url("../images/jey3.jpg");
 }
 .backgroundimage {
 	border-radius: 25px;
