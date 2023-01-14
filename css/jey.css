@@ -39,6 +39,9 @@ audio {
 .post {
 	margin-bottom: 50px;
 }
+.post:last-child {
+	margin-bottom: unset;
+}
 
 .image1 {
 	background: url("../images/jey1.jpg");
