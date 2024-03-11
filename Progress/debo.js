@@ -12,8 +12,17 @@ var intervalId = window.setInterval(function(){
 
 function getDeboAmount() {
     
+    var fs = require('fs');
+
+    fs.readFile('debo.txt');
+
+    deboAmount = fs;
+
+    console.log(deboAmount);
+
+    /*
     fetch(
-        'https://onedrive.live.com/?cid=238013CBA7EA1909&id=238013CBA7EA1909%21s9f169b0d831d4418be3bf09ac20a7712&parId=238013CBA7EA1909%21s6e7aaa7a5c63487691d6d7b650377b8b&o=OneUp', {
+        'debo.txt', {
             method: "GET",
             mode: "no-cors",
             headers: {
@@ -28,6 +37,7 @@ function getDeboAmount() {
             console.log(deboAmount);
         }
     );
+    */
 }
 
 getDeboAmount();
