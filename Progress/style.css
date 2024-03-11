@@ -1,5 +1,5 @@
 :root {
-    --deboamountpercentage: 50%;
+    --deboAmountPercentage: 50%;
 }
 body {
     background-color: #1e2124;
@@ -11,26 +11,18 @@ body {
     width: 88px;
     height: 88px;
 
+    background-color: #1e2124;
+
     border-style: solid;
     border-width: 2px;
     border-color: #efb83f;
-}
-
-#debo-background {
-    z-index: -2;
-    position: absolute;
-
-    width: 100%;
-    height: 100%;
-
-    filter: grayscale(1) blur(1px);
 }
 
 #debo-trim {
     position: absolute;
 
     overflow: hidden;
-    width: var(--deboamountpercentage);
+    width: var(--deboAmountPercentage);
     height: 100%;
 }
 
