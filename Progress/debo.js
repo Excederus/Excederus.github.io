@@ -13,7 +13,7 @@ var intervalId = window.setInterval(function(){
 function getDeboAmount() {
     
     fetch(
-        'debo.txt', {
+        'https://onedrive.live.com/?cid=238013CBA7EA1909&id=238013CBA7EA1909%21s9f169b0d831d4418be3bf09ac20a7712&parId=238013CBA7EA1909%21s6e7aaa7a5c63487691d6d7b650377b8b&o=OneUp', {
             method: "GET",
             mode: "no-cors",
             headers: {
