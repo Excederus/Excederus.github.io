@@ -25,6 +25,7 @@ function getDeboAmount() {
     ).then(
         (text) => {
             deboAmount = text;
+            console.log(deboAmount);
         }
     );
 }
